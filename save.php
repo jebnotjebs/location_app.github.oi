@@ -4,10 +4,10 @@ $latitude = $_POST['latitude'];
 $longitude = $_POST['longitude'];
 
 // Create a database connection
-$servername = "localhost";
-$username = "root";
-$password = "root";
-$dbname = "loc";
+$servername = "sql200.infinityfree.com";    
+$username = "if0_34886032";
+$password = "vZj768BWeU63i";
+$dbname = "if0_34886032_location";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
